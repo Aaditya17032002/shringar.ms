@@ -1,0 +1,842 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- Meta Data -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shringar : The House of Mangalsutra</title>
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+		<!-- Dependency Styles -->
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="libs/feather-font/css/iconfont.css" type="text/css">
+		<link rel="stylesheet" href="libs/icomoon-font/css/icomoon.css" type="text/css">
+		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" type="text/css">
+		<link rel="stylesheet" href="libs/wpbingofont/css/wpbingofont.css" type="text/css">
+		<link rel="stylesheet" href="libs/elegant-icons/css/elegant.css" type="text/css">
+		<link rel="stylesheet" href="libs/slick/css/slick.css" type="text/css">
+		<link rel="stylesheet" href="libs/slick/css/slick-theme.css" type="text/css">
+		<link rel="stylesheet" href="libs/mmenu/css/mmenu.min.css" type="text/css">
+
+		<!-- Site Stylesheet -->
+		<link rel="stylesheet" href="assets/css/app.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+
+		<!-- Google Web Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+			rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+			rel="stylesheet">
+		<style>
+			*,
+			::before,
+			::after {
+				--tw-border-spacing-x: 0;
+				--tw-border-spacing-y: 0;
+				--tw-translate-x: 0;
+				--tw-translate-y: 0;
+				--tw-rotate: 0;
+				--tw-skew-x: 0;
+				--tw-skew-y: 0;
+				--tw-scale-x: 1;
+				--tw-scale-y: 1;
+				--tw-pan-x: ;
+				--tw-pan-y: ;
+				--tw-pinch-zoom: ;
+				--tw-scroll-snap-strictness: proximity;
+				--tw-gradient-from-position: ;
+				--tw-gradient-via-position: ;
+				--tw-gradient-to-position: ;
+				--tw-ordinal: ;
+				--tw-slashed-zero: ;
+				--tw-numeric-figure: ;
+				--tw-numeric-spacing: ;
+				--tw-numeric-fraction: ;
+				--tw-ring-inset: ;
+				--tw-ring-offset-width: 0px;
+				--tw-ring-offset-color: #fff;
+				--tw-ring-color: rgb(59 130 246 / 0.5);
+				--tw-ring-offset-shadow: 0 0 #0000;
+				--tw-ring-shadow: 0 0 #0000;
+				--tw-shadow: 0 0 #0000;
+				--tw-shadow-colored: 0 0 #0000;
+				--tw-blur: ;
+				--tw-brightness: ;
+				--tw-contrast: ;
+				--tw-grayscale: ;
+				--tw-hue-rotate: ;
+				--tw-invert: ;
+				--tw-saturate: ;
+				--tw-sepia: ;
+				--tw-drop-shadow: ;
+				--tw-backdrop-blur: ;
+				--tw-backdrop-brightness: ;
+				--tw-backdrop-contrast: ;
+				--tw-backdrop-grayscale: ;
+				--tw-backdrop-hue-rotate: ;
+				--tw-backdrop-invert: ;
+				--tw-backdrop-opacity: ;
+				--tw-backdrop-saturate: ;
+				--tw-backdrop-sepia:
+			}
+
+			::backdrop {
+				--tw-border-spacing-x: 0;
+				--tw-border-spacing-y: 0;
+				--tw-translate-x: 0;
+				--tw-translate-y: 0;
+				--tw-rotate: 0;
+				--tw-skew-x: 0;
+				--tw-skew-y: 0;
+				--tw-scale-x: 1;
+				--tw-scale-y: 1;
+				--tw-pan-x: ;
+				--tw-pan-y: ;
+				--tw-pinch-zoom: ;
+				--tw-scroll-snap-strictness: proximity;
+				--tw-gradient-from-position: ;
+				--tw-gradient-via-position: ;
+				--tw-gradient-to-position: ;
+				--tw-ordinal: ;
+				--tw-slashed-zero: ;
+				--tw-numeric-figure: ;
+				--tw-numeric-spacing: ;
+				--tw-numeric-fraction: ;
+				--tw-ring-inset: ;
+				--tw-ring-offset-width: 0px;
+				--tw-ring-offset-color: #fff;
+				--tw-ring-color: rgb(59 130 246 / 0.5);
+				--tw-ring-offset-shadow: 0 0 #0000;
+				--tw-ring-shadow: 0 0 #0000;
+				--tw-shadow: 0 0 #0000;
+				--tw-shadow-colored: 0 0 #0000;
+				--tw-blur: ;
+				--tw-brightness: ;
+				--tw-contrast: ;
+				--tw-grayscale: ;
+				--tw-hue-rotate: ;
+				--tw-invert: ;
+				--tw-saturate: ;
+				--tw-sepia: ;
+				--tw-drop-shadow: ;
+				--tw-backdrop-blur: ;
+				--tw-backdrop-brightness: ;
+				--tw-backdrop-contrast: ;
+				--tw-backdrop-grayscale: ;
+				--tw-backdrop-hue-rotate: ;
+				--tw-backdrop-invert: ;
+				--tw-backdrop-opacity: ;
+				--tw-backdrop-saturate: ;
+				--tw-backdrop-sepia:
+			}
+
+			.mx-auto {
+				margin-left: auto;
+				margin-right: auto
+			}
+
+			.mb-5 {
+				margin-bottom: 1.25rem
+			}
+
+			.mb-6 {
+				margin-bottom: 1.5rem
+			}
+
+			.mt-1 {
+				margin-top: 0.25rem
+			}
+
+			.mt-1\.5 {
+				margin-top: 0.375rem
+			}
+
+			.mt-16 {
+				margin-top: 4rem
+			}
+
+			.mt-4 {
+				margin-top: 1rem
+			}
+
+			.block {
+				display: block
+			}
+
+			.inline-block {
+				display: inline-block
+			}
+
+			.flex {
+				display: flex
+			}
+
+			.aspect-video {
+				aspect-ratio: 16 / 9
+			}
+
+			.h-1 {
+				height: 0.25rem
+			}
+
+			.h-full {
+				height: 100%
+			}
+
+			.w-12 {
+				width: 3rem
+			}
+
+			.w-full {
+				width: 100%
+			}
+
+			.max-w-screen-xl {
+				max-width: 1280px;
+				padding: 0 0 50px;
+			}
+
+			.flex-col {
+				flex-direction: column
+			}
+
+			.justify-center {
+				justify-content: center
+			}
+
+			.gap-6 {
+				gap: 1.5rem
+			}
+
+			.overflow-hidden {
+				overflow: hidden
+			}
+
+			.rounded-3xl {
+				border-radius: 1.5rem
+			}
+
+			.border-0 {
+				border-width: 0px
+			}
+
+			.bg-blue-100 {
+				--tw-bg-opacity: 1;
+				background-color: rgb(219 234 254 / var(--tw-bg-opacity))
+			}
+
+			.bg-green-100 {
+				--tw-bg-opacity: 1;
+				background-color: rgb(220 252 231 / var(--tw-bg-opacity))
+			}
+
+			.bg-green-300 {
+				--tw-bg-opacity: 1;
+				background-color: rgb(134 239 172 / var(--tw-bg-opacity))
+			}
+
+			.bg-red-100 {
+				--tw-bg-opacity: 1;
+				background-color: #ffe4e4;
+			}
+
+			.bg-yellow-100 {
+				--tw-bg-opacity: 1;
+				background-color: rgb(254 249 195 / var(--tw-bg-opacity))
+			}
+
+			.bg-gold-100 {
+				--tw-bg-opacity: 1;
+				background-color: #f4f4f4;
+			}
+
+			.object-cover {
+				object-fit: cover
+			}
+
+			.p-8 {
+				padding: 2rem
+			}
+
+			.px-8 {
+				padding-left: 2rem;
+				padding-right: 2rem
+			}
+
+			.py-20 {
+				padding-top: 5rem;
+				padding-bottom: 5rem
+			}
+
+			.text-center {
+				text-align: center
+			}
+
+			.text-2xl {
+				font-size: 1.5rem;
+				line-height: 2rem
+			}
+
+			.text-4xl {
+				font-size: 2.25rem;
+				line-height: 2.5rem
+			}
+
+			.text-xl {
+				font-size: 1.25rem;
+				line-height: 1.75rem
+			}
+
+			.font-bold {
+				font-weight: 700
+			}
+
+			.font-light {
+				font-weight: 300
+			}
+
+			.font-semibold {
+				font-weight: 600
+			}
+
+			.capitalize {
+				text-transform: capitalize
+			}
+
+			.leading-normal {
+				line-height: 1.5;
+				font-size: 20px;
+			}
+
+			.text-gray-800 {
+				--tw-text-opacity: 1;
+				color: rgb(31 41 55 / var(--tw-text-opacity))
+			}
+
+			.text-indigo-900 {
+				--tw-text-opacity: 1;
+				/* color: rgb(49 46 129 / var(--tw-text-opacity)) */
+				color: rgb(60 59 59);
+			}
+
+			.opacity-75 {
+				opacity: 0.75
+			}
+
+			.outline-0 {
+				outline-width: 0px
+			}
+
+            
+
+			@media (min-width: 768px) {
+				.md\:flex-row {
+					flex-direction: row
+				}
+
+				.md\:flex-row-reverse {
+					flex-direction: row-reverse
+				}
+			}
+
+			@media (min-width: 1024px) {
+				.lg\:aspect-square {
+					aspect-ratio: 1 / 1
+				}
+
+				.lg\:w-1\/4 {
+					width: 25%
+				}
+
+				.lg\:w-9\/12 {
+					width: 75%
+				}
+
+				.lg\:p-14 {
+					padding: 3.5rem
+				}
+
+				.lg\:px-10 {
+					padding-left: 2.5rem;
+					padding-right: 2.5rem
+				}
+			}
+
+			@media (min-width: 1280px) {
+				.xl\:text-5xl {
+					font-size: 3rem;
+					line-height: 1
+				}
+			}
+		</style>
+	</head>
+
+	<body class="home home-4 title-4">
+		<div id="page" class="hfeed page-wrapper">
+			<header id="site-header" class="site-header header-v4">
+				<div class="header-mobile">
+					<div class="section-padding">
+						<div class="section-container">
+							<div class="row">
+								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 header-left">
+									<div class="navbar-header">
+										<button type="button" id="show-megamenu" class="navbar-toggle"></button>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 header-center">
+									<div class="site-logo">
+										<a href="index.html">
+											<img width="400" height="79" src="assets/img/logo/shringar-logo.png"
+												alt="Shrinhar-The House Of Mangalsutra">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+
+				<div class="header-desktop">
+					<div class="header-wrapper">
+						<div class="section-padding">
+							<div class="section-container large p-l-r">
+								<div class="row">
+									<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 header-left">
+										<div class="site-logo">
+											<a href="index.html">
+												<img width="400" height="140" src="assets/img/logo/shringar-logo.png"
+													alt="Shrinhar-The House Of Mangalsutra">
+											</a>
+										</div>
+									</div>
+
+									<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 header-right">
+										<div class="site-navigation">
+											<nav id="main-navigation">
+												<ul id="menu-main-menu" class="menu">
+													<li class="level-0 menu-item">
+														<a href="index.html"><span
+																class="menu-item-text">Home</span></a>
+													</li>
+													<li class="level-0 menu-item menu-item-has-children">
+														<a href="#"><span class="menu-item-text">About Us</span></a>
+														<ul class="sub-menu">
+															<li class="level-1 menu-item">
+																<a href="about-us.html"><span
+																		class="menu-item-text">Overview</span></a>
+															</li>
+															<li class="level-1 menu-item">
+																<a href="leadership.html"><span
+																		class="menu-item-text">Leadership</span></a>
+															</li>
+
+														</ul>
+													</li>
+													<li class="level-0 menu-item">
+														<a href="products.html"><span
+																class="menu-item-text">Product</span></a>
+													</li>
+													<li class="level-0 menu-item">
+														<a href="awards.html"><span
+																class="menu-item-text">Awards</span></a>
+													</li>
+													<li class="level-0 menu-item">
+														<a href="ziya.html"><span class="menu-item-text">Ziya</span></a>
+													</li>
+													<li class="level-0 menu-item menu-item-has-children">
+														<a href="#"><span class="menu-item-text">Events</span></a>
+														<ul class="sub-menu">
+															<li class="level-1 menu-item">
+																<a href="events.html"><span class="menu-item-text">Past
+																		Events</span></a>
+															</li>
+															<li class="level-1 menu-item">
+																<a href="upcoming-events.html"><span
+																		class="menu-item-text">Upcoming
+																		Events</span></a>
+															</li>
+
+														</ul>
+													</li>
+													<li class="level-0 menu-item">
+														<a href="contact.html"><span class="menu-item-text">Contact
+																Us</span></a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div id="site-main" class="site-main">
+				<div id="main-content" class="main-content">
+					<div id="primary" class="content-area">
+
+
+						<div id="content" class="site-content" role="main">
+							<div id="title" class="page-title leadership" style="background-image: url(./assets/img/breadcrumbs/2.jpg);">
+								<div class="section-container">
+									<div class="content-title-heading">
+										<h1 class="text-title-heading">
+
+										</h1>
+									</div>
+									<div class="breadcrumbs text-start">
+										<div class="r-1">
+											Leadership
+										</div>
+										<a href="index.html">Home</a><span class="delimiter"></span>Leadership
+									</div>
+								</div>
+							</div>
+
+							<section class="max-w-screen-xl mx-auto px-8 pb-5 g:px-10">
+								<h1 class="text-center">::Our Leadership::</h1>
+
+
+								<div class="flex flex-col gap-6 mt-16">
+									<div class="flex flex-col md:flex-row gap-6">
+										<div class="w-full lg:w-1/4 rounded-3xl overflow-hidden">
+											<img src="assets/img/leadership/chetan.jpg" alt="CHETAN THADESHWAR"
+												class="w-full h-full object-cover aspect-video lg:aspect-square bg-image">
+										</div>
+										<div
+											class="w-full lg:w-9/12 bg-gold-100 rounded-3xl flex flex-col justify-center p-8 lg:p-14">
+											<h3 class="text-2xl capitalize text-indigo-900 font-semibold">CHETAN
+												THADESHWAR</h3>
+											<span
+												class="inline-block capitalize text-xl text-indigo-900 font-light mt-1.5 mb-5">Director</span>
+											<p class="text-indigo-900 opacity-75 leading-normal">Under his visionary
+												leadership, since 1981 the company strategically
+												focused on capturing the untapped potential of the mangalsutra segment
+												and creating designs that
+												over the years have resulted in a diverse portfolio that seamlessly
+												blend tradition with modern
+												aesthetics. An astute businessman and industry pioneer, Chetan
+												Thadeshwar focused on capturing
+												these vast prospects to create a formidable empire that has earned the
+												repute of the most trusted
+												partner for mangalsutras within the B2B space.</p>
+										</div>
+									</div>
+									<div class="flex flex-col md:flex-row-reverse gap-6">
+										<div class="w-full lg:w-1/4 rounded-3xl overflow-hidden">
+											<img src="assets/img/leadership/viraj-1.jpg" alt="VIRAJ THADESHWAR"
+												class="w-full h-full object-cover aspect-video lg:aspect-square bg-image">
+										</div>
+										<div
+											class="w-full lg:w-9/12 bg-gold-100 rounded-3xl flex flex-col justify-center p-8 lg:p-14">
+											<h3 class="text-2xl capitalize text-indigo-900 font-semibold">VIRAJ
+												THADESHWAR</h3>
+											<span
+												class="inline-block capitalize text-xl text-indigo-900 font-light mt-1.5 mb-5">Director</span>
+											<p class="text-indigo-900 opacity-75 leading-normal">Under the astute
+												guidance and principles of his visionary father, Viraj
+												Thadeshwar, Director, ensures that the companys commitment to excellence
+												and innovation
+												continues to maintain its influential position in the jewellery sector.
+												Since joining the company 14
+												years ago Viraj Thadeshwar has brought in modern perspectives and
+												dynamism resulting in the
+												stupendous continuous growth of the company. He presently overseas
+												manufacturing, exports
+												and domestic sales while ensuring responsible manufacturing practices
+												and a nurturing working
+												environment for the company’s vast pool of artisans karigars.</p>
+										</div>
+									</div>
+									<div class="flex flex-col md:flex-row gap-6">
+										<div class="w-full lg:w-1/4 rounded-3xl overflow-hidden">
+											<img src="assets/img/leadership/balraj-1.jpg" alt=""
+												class="w-full h-full object-cover aspect-video lg:aspect-square bg-image">
+										</div>
+										<div
+											class="w-full lg:w-9/12 bg-gold-100 rounded-3xl flex flex-col justify-center p-8 lg:p-14">
+											<h3 class="text-2xl capitalize text-indigo-900 font-semibold">BALRAJ
+												THADESHWAR</h3>
+											<span
+												class="inline-block capitalize text-xl text-indigo-900 font-light mt-1.5 mb-5">
+												Director</span>
+											<p class="text-indigo-900 opacity-75 leading-normal">As the youngest
+												visionary on board, Balraj Thadeshwar brings fresh
+												perspectives and innovative, new age strategies to the table as he helms
+												the company’s marketing,
+												communication, and branding. With a keen eye for detail and a passion
+												for excellence, he leads the
+												charge in launching captivating experience for Shringar at India’s
+												leading jewellery events. Balraj has
+												been a formidable force in the launch of Shringar’s foray in the B2C
+												space with ZIYA, India’s first ever
+												branded mangalsutra designed for the contemporary women.</p>
+										</div>
+									</div>
+									</div>
+
+							</section>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer id="site-footer" class="site-footer three-columns">
+				<div class="footer">
+					<div class="section-padding">
+						<div class="section-container">
+							<div class="block-widget-wrap">
+								<div class="row">
+									<div class="col-lg-3 text-center">
+										<div class="column-wrap">
+											<div class="block block-image mb-60">
+												<img src="assets/img/logo/shringar-logo.png" alt="" class="footer-logo">
+											</div>
+											<div class="block block-social">
+												<ul class="social-link">
+													<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+													<li><a href="https://www.instagram.com/shringarmangalsutra?igsh=cncxZW5uOHd2Y243" target="_blank"><i class="fa fa-instagram"></i></a></li>
+													<!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+													<li><a href="https://www.facebook.com/shringar.houseofmangalsutra?sfnsn=wiwspwa&mibextid=RUbZ1f" target=_blank"><i class="fa fa-facebook"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-5">
+										<div class="column-wrap">
+											<div class="row">
+												<div class="col-lg-5 md-b-20">
+													<div class="block block-menu">
+														<h2 class="block-title">QUICK lINKS</h2>
+														<div class="block-content">
+															<ul>
+																<li>
+																	<a href="index.html">Home Page</a>
+																</li>
+																<li>
+																	<a href="about-us.html">About Us</a>
+																</li>
+																<li>
+																	<a href="products.html">Product</a>
+																</li>
+																<li>
+																	<a href="events.html">Events</a>
+																</li>
+																<li>
+																	<a href="contact.html">Contact Us</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<div class="block block-menu m-b-20">
+														<h2 class="block-title">Contact Us</h2>
+														<div class="block-content">
+															<ul>
+																<li>
+																	<span>Head Office:</span>
+																	<br>
+																	<span class="color-red">SHRINGAR HOUSE OF
+																		MANGALSUTRA PVT LTD</span>
+																	<br>
+																	B1, Jewel World, Cotton Exchange Bldg,
+																	175 Kalbadevi Road, Mumbai 400002. INDIA
+																</li>
+																<li>
+																	<span>Tel:</span> <a
+																		href="tel:+91-22-43111222">+91-22-43111222</a>
+																</li>
+																<li>
+																	<span>Email:</span> <a
+																		href="mailto:info@shringar.ms">info@shringar.ms</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<iframe
+											src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10673.22156318216!2d72.82608568624498!3d18.95114002576404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce22f46acc9f%3A0xb5f82efb76660c0!2sShringar%20House%20Of%20Mangalsutra%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1702874694693!5m2!1sen!2sin"
+											width="100%" height="200" style="border:0;" allowfullscreen=""
+											loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="section-padding">
+						<div class="section-container">
+							<div class="block-widget-wrap">
+								<p class="copyright text-center">Copyright © 2024. <a href="index.html">Shringar : The
+										House Of Mangalsutra</a>
+									&nbsp; &nbsp; | &nbsp; &nbsp;
+									Developed By: <a href="https://www.barodaweb.com" target="_blank">Barodaweb: The
+										e-Catalogue Designer</a> </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div class="sticky-whatsapp">
+				<a href="#" target="_blank">
+					<img src="assets/img/logo/whatsapp.png" class="img-responsive">
+				</a>
+			</div>
+		</div>
+
+		<!-- Back Top button -->
+		<div class="back-top button-show">
+			<i class="arrow_carrot-up"></i>
+		</div>
+
+		<!-- Page Loader -->
+		<div class="page-preloader">
+			<div class="loader">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<!-- Dependency Scripts -->
+		<script src="libs/popper/js/popper.min.js"></script>
+		<script src="libs/jquery/js/jquery.min.js"></script>
+		<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+		<script src="libs/slick/js/slick.min.js"></script>
+		<script src="libs/mmenu/js/jquery.mmenu.all.min.js"></script>
+
+		<!-- Site Scripts -->
+		<script src="assets/js/app.js"></script>
+
+		<!-- <script>
+			var tag = document.createElement('script');
+
+			tag.src = "https://www.youtube.com/iframe_api";
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+			var player;
+			function onYouTubeIframeAPIReady() {
+				player = new YT.Player('player', {
+					width: '100%',
+					videoId: 'PRgGRgtAvJ0',
+					playerVars: {'autoplay': 1, 'playsinline': 1},
+					events: {
+						'onReady': onPlayerReady,
+						'onStateChange': onPlayerStateChange
+					}
+				});
+			}
+
+			function onPlayerReady(event) {
+				event.target.mute();
+				event.target.playVideo();
+			}
+
+			function onPlayerStateChange(event) {
+    			if (event.data == YT.PlayerState.ENDED) {
+      				player.seekTo(0);
+      				player.playVideo();
+    			}
+  			}
+		</script> -->
+
+		<script>
+			// Get the video element and options
+			const video = document.querySelector('#player video');
+			const options = {
+				root: null, // use the viewport as the root
+				rootMargin: '0px',
+				threshold: 0.5 // play the video when 50% of it is visible
+			};
+
+			// Create an intersection observer
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						// Video is in the viewport, play it
+						video.play();
+					} else {
+						// Video is not in the viewport, pause it
+						video.pause();
+					}
+				});
+			}, options);
+
+			// Start observing the video element
+			observer.observe(video);
+		</script>
+		<!-- <script>
+			const images = document.querySelectorAll(".img")
+
+function clearActiveImage() {
+    images.forEach(function(image) {
+        image.classList.remove("active");
+    });
+}
+
+images.forEach(function(image, index) {
+    image.onclick = function () {
+        event.stopPropagation() //important to not call the clearActiveImage() on every click
+        if(images[index].classList.contains("active")){
+            images[index].classList.remove("active")
+        } else {
+            clearActiveImage(index)
+            images[index].classList.add("active")
+        }
+    }
+})
+
+window.addEventListener("click", () => {
+    clearActiveImage()
+})
+
+		</script> -->
+		<script>
+			const images = document.querySelectorAll(".img");
+
+			function clearActiveImage() {
+				images.forEach(function (image) {
+					image.classList.remove("active");
+				});
+			}
+
+			images.forEach(function (image, index) {
+				image.addEventListener("mouseover", function () {
+					event.stopPropagation(); // Important to not call clearActiveImage() on every hover
+					if (images[index].classList.contains("active")) {
+						images[index].classList.remove("active");
+					} else {
+						clearActiveImage(index);
+						images[index].classList.add("active");
+					}
+				});
+			});
+
+			window.addEventListener("mouseover", () => {
+				clearActiveImage();
+			});
+		</script>
+
+	</body>
+
+</html>
